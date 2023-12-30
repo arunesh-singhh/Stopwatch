@@ -1,0 +1,52 @@
+/* Add your styles here */
+
+body {
+    background-color: rgb(16, 192, 246);
+    align-items: center;
+}
+
+.heading {
+    width: 100%;
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.card {
+    width: 300px;
+    height: 150px;
+    margin: 100px auto;
+    padding: 30px;
+    background-color: rgb(114, 212, 241);
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.5);
+}
+
+.stopwatch {
+    text-align: center;
+}
+
+.display {
+    font-size: 4em;
+    margin-bottom: 30px;
+}
+
+button {
+    padding: 8px 16px;
+    margin: 0 5px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 4px;
+    border: none;
+    background-color: #000000;
+    color: #fff;
+}
+
+button:hover {
+    background-color: #3b3c3d;
+}
